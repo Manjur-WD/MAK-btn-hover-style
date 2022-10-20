@@ -116,11 +116,11 @@
     position: relative;
     overflow: hidden;
 }
-.btn-hover-circle-down:hover {
+.circle-fill-up:hover {
     color: white;
 }
 
-.btn-hover-circle-down::before {
+.circle-fill-up::before {
     content: "";
     bottom: 0;
     left: 0;
@@ -132,7 +132,7 @@
     z-index: -1;
 }
 
-.btn-hover-circle-down:hover::before{
+.circle-fill-up:hover::before{
     height: 180%;
     transition: 0.8s;
 }
@@ -161,11 +161,11 @@
     position: relative;
     overflow: hidden;
 }
-.btn-hover-circle-down:hover {
+.circle-fill-down:hover {
     color: white;
 }
 
-.btn-hover-circle-down::before {
+.circle-fill-down::before {
     content: "";
     top: 0;
     left: 0;
@@ -177,7 +177,7 @@
     z-index: -1;
 }
 
-.btn-hover-circle-down:hover::before{
+.circle-fill-down:hover::before{
     height: 150%;
     transition: 0.8s;
 }
