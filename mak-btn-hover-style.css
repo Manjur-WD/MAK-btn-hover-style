@@ -24,11 +24,11 @@
     position: relative;
     overflow: hidden;
 }
-.btn-hover-circle-down:hover {
+.circle-unfill-up:hover {
     color: black;
 }
 
-.btn-hover-circle-down::before {
+.circle-unfill-up::before {
     content: "";
     top: 0;
     left: 0;
@@ -40,7 +40,7 @@
     z-index: -1;
 }
 
-.btn-hover-circle-down:hover::before{
+.circle-unfill-up:hover::before{
     height: 0%;
     transition: 0.8s;
 }
@@ -71,11 +71,11 @@
     position: relative;
     overflow: hidden;
 }
-.btn-hover-circle-down:hover {
+.circle-unfill-down:hover {
     color: black;
 }
 
-.btn-hover-circle-down::before {
+.circle-unfill-down::before {
     content: "";
     bottom: 0;
     left: 0;
@@ -87,7 +87,7 @@
     z-index: -1;
 }
 
-.btn-hover-circle-down:hover::before{
+.circle-unfill-down:hover::before{
     height: 0%;
     transition: 0.8s;
 }
