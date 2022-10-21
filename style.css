@@ -1,0 +1,40 @@
+/* hover-fill-up */
+.btn-sm{
+    padding: 10px 30px;
+    font-size: 18px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-lg{
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: none;
+    position: relative;
+    overflow: hidden;
+}
+.btn-sm:hover,
+.btn-lg:hover{
+    box-shadow: 2px 5px 15px #0c0c0c;
+    transition: 0.5s;
+}
+.fill-up::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.fill-up:hover::before{
+    height: 0%;
+    transition: 0.8s;
+}
